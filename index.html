@@ -122,6 +122,12 @@
     justify-content: center;
     margin: 0;
   }
+  [front] {
+    transform: rotate3d(1, 1, 1, -15deg);
+  }
+  [back] {
+    transform: rotate3d(1, 1, 1, 15deg);
+  }
   div {
     display: flex;
   }
@@ -155,18 +161,16 @@
   <p golden>+ тысяча качественных шёлковых визиток</p>
   <div>
     <figure>
-      <blockquote card>
+      <blockquote card front>
         <h1 golden>Jin</h1>
         <h2 golden>Загадай желание</h2>
       </blockquote>
-      <p>Обложка</p>
     </figure>
     <figure>
-      <blockquote card>
+      <blockquote card back>
         <h1 golden before after>jin.shik.me</h1>
         <h2 golden>Флаер на исполнение<br/>самой заветной мечты</h2>
       </blockquote>
-      <p>Оборот</p>
     </figure>
   </div>
 </section>
