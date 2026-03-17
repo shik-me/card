@@ -25,12 +25,13 @@
   }
   body {
     margin: 0;
-    padding: 0 5vmin;
+    padding: 5vmin;
     display: grid;
     align-items: safe center;
     justify-items: safe center;
     align-content: safe center;
     justify-content: safe center;
+    scroll-snap-align: start;
   }
   section {
     display: flex;
@@ -149,9 +150,12 @@
   img {
     width: 100%;
   }
+  large {
+    padding: 10vmin;
+  }
 </style>
 
-<section>
+<section large>
   <h1 golden before after>card.shik.me</h1>
   <p golden>Шикарные визитки для искушённой публики</p>
 </section>
@@ -185,7 +189,7 @@
   </div>
 </section>
 
-<section>
+<section large>
   <h2 golden>Топовая за ₽500К/год</h2>
   <p golden>+ ваша визитка тут в качестве примера</p>
 </section>
