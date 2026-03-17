@@ -67,6 +67,30 @@
     margin: 2vmin 0;
     opacity: .75;
   }
+  figure {
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    border: 1px solid gold;
+    border-radius: 1vmin;
+  }
+  [phone] {
+    width: 36vmin;
+    height: 64vmin;
+  }
+  [laptop] {
+    height: 64vmin;
+    width: 36vmin;
+  }
+  [card] {
+    border-radius: 3vmin;
+    height: 90vmin;
+    width: 50vmin;
+  }
+  div {
+    display: flex;
+  }
 </style>
 <section>
   <h1 golden>card.shik.me</h1>
@@ -74,10 +98,16 @@
   <section>
     <h2 golden>Виртуальные — ₽100К / год</h2>
     <p golden>Стильные странички на домене shik!me.</p>
-    <figure>
-      <iframe src="https://jin.shik.me/"></iframe>
-      <a href="https://jin.shik.me/">jin.shik.me</a>
-    </figure>
+    <div>
+      <figure>
+        <iframe phone src="https://jin.shik.me/"></iframe>
+        <a golden href="https://jin.shik.me/">jin.shik.me</a>
+      </figure>
+      <figure>
+        <iframe laptop src="https://jin.shik.me/"></iframe>
+        <a golden href="https://jin.shik.me/">jin.shik.me</a>
+      </figure>
+    </div>
   </section>
   <section>
     <h2 golden>Тактильные — ₽250К / год</h2>
