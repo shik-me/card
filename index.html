@@ -120,13 +120,14 @@
     margin: 0;
     overflow: hidden;
     background: black;
+    zoom: .33;
   }
   [front] {
-    transform: rotateZ(-10deg) scale(0.33);
-    justify-content: evenly;
+    transform: rotateZ(-10deg);
+    justify-content: space-evenly;
   }
   [back] {
-    transform: rotateZ(+10deg) scale(0.33);
+    transform: rotateZ(+10deg);
     justify-content: space-between;
   }
   div {
