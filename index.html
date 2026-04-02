@@ -16,6 +16,23 @@
       opacity: 0;
     }
   }
+  @keyframes lights {
+    0% {
+		box-shadow: -1px -1px 10vmin var(--gold);
+	}
+    25% {
+		box-shadow: 1px -1px 10vmin var(--gold);
+	}
+    50% {
+		box-shadow: 1px 1px 10vmin var(--gold);
+	}
+    75% {
+		box-shadow: -1px 1px 10vmin var(--gold);
+	}
+    100% {
+		box-shadow: -1px -1px 10vmin var(--gold);
+	}
+  }
   :root {
     font-family: Georgia, 'serif';
     font-variant-numeric: lining-nums;
@@ -108,6 +125,7 @@
     border: none;
     box-shadow: 0 0 10vmin var(--gold);
     border-radius: 1vmin;
+	animation: lights infinite 1s;
   }
   [phone] {
     width: 45vmin;
