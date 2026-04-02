@@ -31,7 +31,7 @@
   background-color: var(--gold);
 }
 body {
-animation: fade-in ease-out 1s;
+  animation: fade-in ease-out 1s;
   margin: 0;
   padding: 5vmin;
   display: grid;
@@ -108,7 +108,7 @@ iframe {
   border: none;
   box-shadow: 0 0 10vmin var(--gold);
   border-radius: 1vmin;
-animation: lights infinite 1s;
+  animation: lights infinite 1s;
 }
 [phone] {
   width: 45vmin;
@@ -161,5 +161,5 @@ img {
   width: 100%;
 }
 [large] {
-  padding: 15vmin 0;
+  padding: 10vmin 0;
 }
