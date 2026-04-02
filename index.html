@@ -11,6 +11,11 @@
 <meta name="description" content="Современные VIP визитки" />
 
 <style>
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
   :root {
     font-family: Georgia, 'serif';
     font-variant-numeric: lining-nums;
@@ -26,6 +31,7 @@
     background-color: var(--gold);
   }
   body {
+	animation: fade-in ease-out 1s;
     margin: 0;
     padding: 5vmin;
     display: grid;
