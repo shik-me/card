@@ -108,7 +108,7 @@ iframe {
   border: none;
   box-shadow: 0 0 10vmin var(--gold);
   border-radius: 1vmin;
-  animation: lights infinite 1s;
+  /* animation: lights infinite 1s; */
 }
 [phone] {
   width: 45vmin;
@@ -130,7 +130,7 @@ iframe {
   overflow: hidden;
   background: black;
   margin: -60vmin -33vmin;
-animation: lights infinite 1s;
+  /* animation: lights infinite 1s; */
 }
 [front] {
   transform: rotateZ(-10deg) scale(.33);
