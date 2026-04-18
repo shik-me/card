@@ -100,6 +100,7 @@ h2 {
 p {
   font-size: 4vmin;
   margin: 2vmin 0;
+  text-align: center;
 }
 figure {
   display: flex;
