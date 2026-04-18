@@ -176,9 +176,5 @@ aside {
   font-size: 3vmin;
   color: oklch(0.5 0 0);
   opacity: .66;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   text-align: center;
 }
