@@ -51,6 +51,9 @@ section {
   min-height: 66vh;
   height: max-content;
 }
+[large] {
+  padding: 10vmin 0;
+}
 h1 {
   font-size: 15vmin;
   font-weight: normal;
@@ -163,9 +166,6 @@ a:hover {
 }
 img {
   width: 100%;
-}
-[large] {
-  padding: 10vmin 0;
 }
 aside {
   font-size: 3vmin;
