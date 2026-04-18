@@ -49,6 +49,7 @@ section {
   padding: 5vmin 0;
   scroll-snap-align: start;
   min-height: 66vh;
+  height: max-content;
 }
 h1 {
   font-size: 15vmin;
