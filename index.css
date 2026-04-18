@@ -33,7 +33,6 @@
 body {
   animation: fade-in ease-out 1s;
   margin: 0;
-  padding: 5vmin;
   display: grid;
   align-items: safe center;
   justify-items: safe center;
