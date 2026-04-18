@@ -106,7 +106,7 @@ figure {
 }
 iframe {
   border: none;
-  box-shadow: 0 0 10vmin var(--gold);
+  box-shadow: 0 0 5vmin var(--gold);
   border-radius: 1vmin;
   /* animation: lights infinite 1s; */
 }
