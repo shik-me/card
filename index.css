@@ -90,7 +90,7 @@ h1[after]:after {
   content: '!';
   width: 5vmin;
   position: absolute;
-  right: 1.25em;
+  right: 1.26em;
   opacity: .25;
   color: var(--gold);
 }
