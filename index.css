@@ -45,8 +45,10 @@ section {
   display: flex;
   flex-direction: column;
   align-items: safe center;
+  justify-content: safe center;
   padding: 5vmin 0;
   scroll-snap-align: start;
+  min-height: 75vh;
 }
 h1 {
   font-size: 15vmin;
