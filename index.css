@@ -115,6 +115,7 @@ iframe {
   border: none;
   box-shadow: 0 0 5vmin var(--gold);
   border-radius: 1vmin;
+  pointer-events: none;
   /* animation: lights infinite 1s; */
 }
 [phone] {
