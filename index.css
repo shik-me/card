@@ -153,7 +153,6 @@ div {
 a {
   color: unset;
   text-decoration: none;
-  padding: 3vmin 5vmin;
 }
 a:hover {
   color: var(--gold);
@@ -162,6 +161,7 @@ a:hover {
   font-size: 5vmin;
   border-radius: 1vmin;
   box-shadow: 0 0 0 1px var(--gold);
+  padding: 3vmin 5vmin;
 }
 img {
   width: 100%;
