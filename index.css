@@ -162,6 +162,7 @@ a:hover {
   border-radius: 1vmin;
   box-shadow: 0 0 0 1px var(--gold);
   padding: 3vmin 5vmin;
+  display: block;
 }
 img {
   width: 100%;
