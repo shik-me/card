@@ -171,6 +171,7 @@ img {
   width: 1em;
   height: 1em;
   fill: var(--gold);
+  fill-rule: evenodd;
 }
 aside {
   font-size: 3vmin;
